@@ -6,8 +6,10 @@ from email.mime.multipart import MIMEMultipart
 
 # Email configuration
 smtp_server = 'smtp.gmail.com'
+# Email configuration for Outlook
+# smtp_server = 'smtp.office365.com'
 smtp_port = 587
-username = 'antilparul06@gmail.com'
+username = 'antilparul@gmail.com'
 password = 'wlix nmym sybi anzc'
 
 # Create the email content
@@ -16,7 +18,7 @@ body = 'This is the body of the email.'
 
 msg = MIMEMultipart()
 msg['From'] = username
-msg['To'] = 'antilparul06@gmail.com'
+msg['To'] = 'example@gmail.com'
 msg['Subject'] = subject
 
 # Attach the email body
