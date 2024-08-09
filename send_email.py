@@ -1,4 +1,4 @@
-# Sending mail using smtp server
+# Sending mail using gmail smtp server
 
 import smtplib
 from email.mime.text import MIMEText
